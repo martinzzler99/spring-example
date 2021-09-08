@@ -17,7 +17,7 @@ public class SpringExampleApplication {
 	
 	@GetMapping("/{input}")
 	public String congrats(@PathVariable String input) {
-		return "Hello " +input+" Your application depoloyed successfully";
+		return "Hello " +input+" Your application deployed successfully";
 	}
 
 	public static void main(String[] args) {
